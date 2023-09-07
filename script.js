@@ -1,6 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
     let pageIndex = 0; 
     const pages = document.querySelectorAll('.page');
+        pages[0].style.display = 'block';
     const indicators = document.querySelectorAll('.indicator');
     const leftControl = document.getElementById('leftControl');
     const rightControl = document.getElementById('rightControl');
