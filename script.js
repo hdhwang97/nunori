@@ -12,6 +12,9 @@ document.addEventListener("DOMContentLoaded", function() {
 
     function updateControlsVisibility() {
         leftControl.style.display = (pageIndex === 0) ? 'none' : 'block';
+        rightControl.style.display = (pageIndex === 8) ? 'none' : 'block';
+
+
     }
 
     function updateIndicators() {
