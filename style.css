@@ -137,6 +137,10 @@ padding: 0 auto;
 background-color: #49705F;
 }
 
+.bgWhite{
+background-color: #EAE5DF;
+}
+
 .btn-main {
     background-color: #199751;
     color: #FFFDF6;
