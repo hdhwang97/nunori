@@ -1,6 +1,17 @@
+html, body {
+    height: 100%;       /* Ensure they take up the full viewport height */
+    overflow: hidden;   /* Prevent content from overflowing */
+    margin: 0;          /* Reset default margin */
+    padding: 0;  
+}
+
+html {
+    overflow: hidden !important;
+}
+
 body {
 box-sizing:border-box;
-overflow: hidden;
+overflow: hidden !important;
 background-color: #FFFDF6;
 margin: 0 auto;
 padding: 0;
@@ -72,6 +83,7 @@ padding: 0 auto;
 .img6{background-image: url("img/img6.png");}
 .img7{background-image: url("img/img7.png");}
 .img8{background-image: url("img/img8.png");}
+.img9{background-image: url("img/img9.png");}
 
 .control {
     position: fixed;
@@ -170,35 +182,27 @@ background-color: #49705F;
 .looping-card:nth-child(2) {
     animation-delay: 5s;
 }
-
 .looping-card:nth-child(3) {
     animation-delay: 10s;
 }
-
 .looping-card:nth-child(4) {
     animation-delay: 15s;
 }
-
 .looping-card:nth-child(5) {
     animation-delay: 20s;
 }
-
 .looping-card:nth-child(6) {
     animation-delay: 25s;
 }
-
 .looping-card:nth-child(7) {
     animation-delay: 30s;
 }
-
 .looping-card:nth-child(8) {
     animation-delay: 35s;
 }
-
 .looping-card:nth-child(9) {
     animation-delay: 40s;
 }
-
 .looping-card:nth-child(10) {
     animation-delay: 45s;
 }
@@ -218,6 +222,7 @@ background-color: #49705F;
 
 
 .card-wrapper {
+    right: 0;
     padding:0;
     position: absolute;
     z-index: 1000;  /* adjust as necessary */
